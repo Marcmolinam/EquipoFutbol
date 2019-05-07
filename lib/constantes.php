@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-define("URLBASE",'http://localhost:8081/EquipoFutbol/');
+define("URLBASE",'http://localhost:80/EquipoFutbol/');
 define("DIRBASE",'C:/xampp/htdocs/EquipoFutbol');
 /*
  * Parametros DB

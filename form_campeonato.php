@@ -22,7 +22,7 @@ SKIN: https://bootsnipp.com/snippets/2X0r
     </head>
     <body>
       <h1>Campeonato</h1>
-    <form role="form" method="POST" action="<?=URLBASE?>controladores/Campeonato.php">
+    <form role="form" method="POST" >
     <div class="form-group">
       <label for="input">ingresar Codigo</label>
       <input type="text" class="form-control" name="codigo" id="codigo" placeholder="Codigo Campeonato">
@@ -43,8 +43,8 @@ SKIN: https://bootsnipp.com/snippets/2X0r
       <label for="input">Cantidad de Partidos</label>
       <input type="text" class="form-control" name="cantidadPartidos" id="cantidadPartidos">
     </div>
-    <button type="submit" class="btn btn-primary">ingresar Campeonato</button>
+    <input type="submit" value="agregar" formaction="<?=URLBASE?>controladores/Campeonato.php">
+    <input type="submit" value="eliminar" formaction="<?=URLBASE?>controladores/eliminarCampeonato.php">   
   </form>
-      hola 
     </body>
     </html>
