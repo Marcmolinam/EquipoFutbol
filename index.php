@@ -1,3 +1,6 @@
+<?php
+include("/lib/constantes.php");
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -17,7 +20,7 @@ SKIN: https://bootsnipp.com/snippets/2X0r
     </head>
     <body>
         <h1>Campeonato</h1>
-    <form role="form" method="POST" action="<?=URLBASE?>controladores/Campeonato.php">
+    <form role="form" method="POST" action="<?=URLBASE?>/controladores/Campeonato.php">
         <div class="form-group">
           <label for="input">ingresar Codigo</label>
           <input type="text" class="form-control" id="codigoCamp" placeholder="Codigo Campeonato">

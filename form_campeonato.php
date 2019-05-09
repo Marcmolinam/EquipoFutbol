@@ -44,6 +44,8 @@ SKIN: https://bootsnipp.com/snippets/2X0r
       <input type="text" class="form-control" name="cantidadPartidos" id="cantidadPartidos">
     </div>
     <input type="submit" value="agregar" formaction="<?=URLBASE?>controladores/Campeonato.php">
+    <input type="submit" value="actualizar" formaction="<?=URLBASE?>controladores/actualizarCampeonato.php">   
+    <input type="submit" value="listar" formaction="<?=URLBASE?>controladores/listarCampeonato.php">
     <input type="submit" value="eliminar" formaction="<?=URLBASE?>controladores/eliminarCampeonato.php">   
   </form>
     </body>

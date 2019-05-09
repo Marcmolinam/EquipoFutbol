@@ -13,5 +13,5 @@ define("DIRBASE",'C:/xampp/htdocs/EquipoFutbol');
  * **/
 define("DBNAME",'equiposfutbol');
 define("DBUSR",'root');
-define("DBPWD",'avaras08');
+define("DBPWD",'');
 define("DBHOST",'localhost');

@@ -114,6 +114,27 @@ class Campeonato{
         }
         */
     }
+    function EliminarCampeonato(){
+        /*Verficamos la existencia*/
+        $db= new DBConnect();
+        $dblink=$db->conexion();
+        
+        if (!isset($dblink)){
+            return false;
+        }
+        
+        $PDOst=$dblink->prepare('INSERT INTO campeonato (codigo, nombre, fechainicio,fechatermino,cantidadpartidos) VALUES (?,?,?,?,?)');
+        echo $this->id;
+        $PDOst->execute(array($this->codigo,$this->nombre,$this->fechainicio,$this->fechatermino,$this->cantidadPartidos));
+
+      /*  if ( $row=$PDOst->fetch(PDO::FETCH_OBJ)){
+            return true;
+        }
+        else{
+             return false;   
+        }
+        */
+    }
 
 
 
